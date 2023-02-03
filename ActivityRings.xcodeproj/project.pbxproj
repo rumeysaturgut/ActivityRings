@@ -11,6 +11,8 @@
 		4D804FA9298AA1E50077BB13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D804FA8298AA1E50077BB13 /* ContentView.swift */; };
 		4D804FAB298AA1E70077BB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D804FAA298AA1E70077BB13 /* Assets.xcassets */; };
 		4D804FAE298AA1E80077BB13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D804FAD298AA1E80077BB13 /* Preview Assets.xcassets */; };
+		4D804FB5298AA30B0077BB13 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D804FB4298AA30B0077BB13 /* Ring.swift */; };
+		4D804FB7298AA31B0077BB13 /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D804FB6298AA31B0077BB13 /* RingShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4D804FA8298AA1E50077BB13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D804FAA298AA1E70077BB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D804FAD298AA1E80077BB13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D804FB4298AA30B0077BB13 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		4D804FB6298AA31B0077BB13 /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4D804FA8298AA1E50077BB13 /* ContentView.swift */,
 				4D804FAA298AA1E70077BB13 /* Assets.xcassets */,
 				4D804FAC298AA1E80077BB13 /* Preview Content */,
+				4D804FB4298AA30B0077BB13 /* Ring.swift */,
+				4D804FB6298AA31B0077BB13 /* RingShape.swift */,
 			);
 			path = ActivityRings;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D804FA9298AA1E50077BB13 /* ContentView.swift in Sources */,
+				4D804FB5298AA30B0077BB13 /* Ring.swift in Sources */,
 				4D804FA7298AA1E50077BB13 /* ActivityRingsApp.swift in Sources */,
+				4D804FB7298AA31B0077BB13 /* RingShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
